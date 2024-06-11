@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1222px) {
+  .container {
+    width: 80%;
+  }
+}
+
+.nav-bar {
+  display: none;
+}
+
+@media (max-width: 1011px) {
+  .nav,
+  .login {
+    display: none;
+  }
+  .nav-bar {
+    display: block;
+  }
+  .view {
+    display: flex; /* Add this line */
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    padding-inline: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .rate {
+    display: flex; /* Add this line */
+    flex-direction: column;
+    align-items: start;
+  }
+}
+.img-slider {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.slider::-webkit-scrollbar {
+  width: 12px;
+}
+
+.slider::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slider::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 6px;
+}
+
+.slider::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
