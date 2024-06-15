@@ -1,5 +1,5 @@
 
-live Demo :https://vercel.com/ahmeds-projects-7df2a525/travel-clone
+live Demo : https://travel-clone-teal.vercel.app/
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
