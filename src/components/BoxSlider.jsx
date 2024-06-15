@@ -1,7 +1,7 @@
 function BoxSlider({ title, des, img }) {
   return (
     <div
-      className={`bg-[url(${img})] bg-no-repeat bg-cover w-[1100px] h-[550px] rounded-3xl p-10 flex flex-col justify-between items-start`}
+      className={`bg-[url('../../img-1.png')] bg-no-repeat bg-cover w-[1100px] h-[550px] rounded-3xl p-10 flex flex-col justify-between items-start`}
     >
       <Logo title={title} des={des} />
       <Imgs />
